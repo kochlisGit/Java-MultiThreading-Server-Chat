@@ -48,6 +48,7 @@ This link can help you setup javafx-sdk [Documentation](https://openjfx.io/openj
 5. Add Apache PDFBox library to the project.
 6. Compile and Run Server.java
 **javac servers/Server.java**
+
 **java servers/Server**
 
 7. Run FastChatMain.java
