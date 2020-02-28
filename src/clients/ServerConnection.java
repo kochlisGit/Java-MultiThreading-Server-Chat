@@ -6,6 +6,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.concurrent.LinkedBlockingQueue;
 
+// ServerConnection Handles connections. It start the receiver's thread and sends messages to server.
 public class ServerConnection
 {
     private Socket socket;
@@ -47,6 +48,7 @@ public class ServerConnection
         }
     }
 
+    // Send messages to Server. When message.equals( "$" ), the connection is terminated.
     public void sendMessage(String clientMessage) {
         messageWriter.println(clientMessage);
         if ( clientMessage.equals("$") )
