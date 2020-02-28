@@ -21,6 +21,7 @@ public class ClientReceiver extends Thread
         isRunning = false;
     }
 
+    // Receive messages and puts them in a queue.
     @Override
     public void run()
     {
