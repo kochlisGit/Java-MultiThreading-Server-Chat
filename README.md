@@ -51,6 +51,7 @@ This link can help you setup javafx-sdk [Documentation](https://openjfx.io/openj
 
 **java servers/Server**
 
-7. Run FastChatMain.java
+7. Run FastChatMain.java as a client from any machine.
 
+**Important: You will need to know the host's IP (The IP of the machine that runs the server) in order to get this to work.**
 
